@@ -2,7 +2,9 @@
 
 int main()
 {
-    char letter_a = 'A';
+    char letter_a = 'A'; /* char ist 8bit und kann auch Integer speichern. Ist eigentlicht für Charakter
+                            Hinterlegt ist aber auch der Dezimalwert der ASCII Tabelle (daher 65, wenn man über das
+                             A hovert) */
 
     std::cout << letter_a << std::endl;
     std::cout << (int)letter_a << std::endl;
